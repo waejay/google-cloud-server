@@ -11,4 +11,9 @@ is_a_palindrome = "racecar"
 print(isPalindrome(not_a_palindrome))
 print(isPalindrome(is_a_palindrome))
 
+def print_to_half(string):
+	print(string[:len(string) / 2])
+
+
+print_to_half("the half is here and rest is here")
 

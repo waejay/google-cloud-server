@@ -62,7 +62,7 @@ int main(int argc, char *argv[])
 	printf("\n");
 		
 	// Draw lower half of diamond
-	for (int i = (((2*num - 1) / 2)); i >= 0; i--)
+	for (int i = (((2*num - 1) / 2)) - 1; i >= 0; i--)
 	{
 		// Print spaces
 		for (int j = 0; j < (2 * num - 1) - i; j++)
